@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Datasets and raw data
+data/
+*.csv
+*.parquet
+*.h5
+*.ff1pkl
+*.sqlite
+*.pkl
+*.pickle
+monaco_2024_dataset.csv
+
+# Paper drafts and LaTeX build artifacts
+deep learning paper/
+paper.tex
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Text files (except requirements.txt)
+*.txt
+!requirements.txt
+
+# Trained models and checkpoints
+models/
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Compressed archives and outputs
+*.zip
+results.zip
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
